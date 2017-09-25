@@ -1,28 +1,38 @@
-/* The side navigation menu */
+/* line 1, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+nav {
+  height: 5em;
+  padding-top: 1.5em;
+  z-index: 2;
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+}
+
+/* line 10, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+nav .toggler:hover {
+  cursor: pointer;
+}
+
+/* line 16, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav {
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    right: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    text-decoration: none;
-    font-size: 18pt;
-    color: white;
-    display: block;
-    transition: 0.3s
-}
-.sidenav li:hover{
-  background-color: #4d4d4d;
+/* line 26, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul {
+  padding: unset;
+  margin-bottom: unset;
 }
 
-.sidenav li{
+/* line 30, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li {
   list-style: none;
   padding-left: 2em;
   border-style: solid;
@@ -33,16 +43,22 @@
   padding-bottom: 1.5em;
 }
 
-.sidenav li:first-child{
+/* line 40, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li:hover {
+  background-color: #4d4d4d;
+}
+
+/* line 44, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li:first-child {
   list-style: none;
-  padding-left: unset;
   height: 5em;
   border-style: none;
   background-color: #1c1c1c;
   padding-top: unset;
 }
 
-.sidenav li:last-child{
+/* line 52, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li:last-child {
   border-style: none;
   background-color: #1c1c1c;
   text-align: center;
@@ -51,38 +67,53 @@
   padding-left: unset;
 }
 
-.sidenav li img{
+/* line 61, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li img {
   opacity: 0.5;
   padding-left: 1em;
 }
-.sidenav li img:first-child{
+
+/* line 65, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li img:first-child {
   padding-left: unset;
 }
 
-
-.sidenav li img:hover{
+/* line 69, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li img:hover {
   opacity: unset;
   cursor: pointer;
 }
-.sidenav li:hover:not(:last-child){
+
+/* line 73, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li img:hover:not(:last-child) {
   cursor: pointer;
 }
 
-
-.sidenav ul{
-  padding: unset;
-  margin-bottom: unset;
+/* line 79, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+.sidenav ul li a {
+  text-decoration: none;
+  font-size: 16pt;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Nationale-Regular';
 }
 
-/* Position and style the close button (top right corner) */
+/* line 91, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav .closebtn {
-    text-align: center;
-    font-size: 35pt;
+  text-align: center;
+  font-size: 35pt;
 }
 
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  /* line 97, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+  .sidenav {
+    padding-top: 15px;
+  }
+  /* line 101, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+  .sidenav a {
+    font-size: 18px;
+  }
 }
+
+/*# sourceMappingURL=../css/navbar.map */

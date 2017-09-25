@@ -1,0 +1,24 @@
+/* line 1, C:/MAMP/htdocs/Tidal/scss/sections.scss */
+.section-2 {
+  width: 100vw;
+}
+
+/* line 4, C:/MAMP/htdocs/Tidal/scss/sections.scss */
+.section-2 img {
+  width: 100%;
+}
+
+/* line 9, C:/MAMP/htdocs/Tidal/scss/sections.scss */
+.section-3 {
+  width: 100vw;
+  background-color: #1a1a1a;
+  padding-top: 10em;
+}
+
+/* line 14, C:/MAMP/htdocs/Tidal/scss/sections.scss */
+.section-3 img {
+  margin: auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=../css/sections.map */

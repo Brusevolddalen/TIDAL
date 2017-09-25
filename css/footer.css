@@ -1,0 +1,65 @@
+/* line 1, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer {
+  background-color: #242424;
+  width: 100vw;
+}
+
+/* line 6, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .footer-icons img {
+  padding-left: 2em;
+  padding-top: 5vh;
+}
+
+/* line 11, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .footer-icons p {
+  padding-top: 3em;
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* line 18, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social {
+  background-color: #1a1a1a;
+  height: 10em;
+  margin-top: 10em;
+}
+
+/* line 23, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .try-button {
+  text-align: center;
+}
+
+/* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .copyright {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .social .copyright {
+    text-align: center;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 35, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .social .social-icons {
+    text-align: center;
+    order: 1;
+    padding-bottom: 2em;
+  }
+}
+
+/* line 44, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .copyright-social img {
+  opacity: 0.5;
+  padding-left: 1.5em;
+}
+
+/* line 48, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .copyright-social img:hover {
+  opacity: unset;
+}
+
+/*# sourceMappingURL=../css/footer.map */

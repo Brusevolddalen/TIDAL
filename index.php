@@ -5,7 +5,7 @@
 
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/main.css" media="screen,projection" rel="stylesheet" type="text/css">
-  <link href="css/navbar.css" media="screen,projection" rel="stylesheet" type="text/css">
+
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
   <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
