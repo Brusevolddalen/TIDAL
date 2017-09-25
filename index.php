@@ -84,7 +84,7 @@
     </div>
 
     <div class="section-2">
-      <img  alt="Mountain image" src="images/Section2.png"/>
+      <img  alt="Wave image" src="images/Section2.png"/>
     </div>
 
     <div class="section-3">

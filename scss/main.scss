@@ -10,6 +10,18 @@ body {
   color: white;
   overflow-x: hidden;
 
+  font-family: "Nationale-Regular";
+  font-size: 18pt !important;
+
+  button{
+    font-family: "Nationale-Regular";
+  }
+
+  h1{
+    font-family: "Nationale-Bold";
+    font-size: 3rem;
+  }
+
   .row {
     margin-left: unset;
     margin-right: unset;

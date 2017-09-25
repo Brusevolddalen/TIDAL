@@ -113,10 +113,11 @@ nav .toggler:hover {
   height: 5em;
   border-style: none;
   background-color: #1c1c1c;
-  padding-top: unset;
+  padding-top: 0.5em;
+  padding-left: unset;
 }
 
-/* line 52, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 53, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li:last-child {
   border-style: none;
   background-color: #1c1c1c;
@@ -126,29 +127,29 @@ nav .toggler:hover {
   padding-left: unset;
 }
 
-/* line 61, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 62, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li img {
   opacity: 0.5;
   padding-left: 1em;
 }
 
-/* line 65, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 66, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li img:first-child {
   padding-left: unset;
 }
 
-/* line 69, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 70, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li img:hover {
   opacity: unset;
   cursor: pointer;
 }
 
-/* line 73, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 74, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li img:hover:not(:last-child) {
   cursor: pointer;
 }
 
-/* line 79, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 80, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav ul li a {
   text-decoration: none;
   font-size: 16pt;
@@ -158,18 +159,18 @@ nav .toggler:hover {
   font-family: 'Nationale-Regular';
 }
 
-/* line 91, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+/* line 92, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
 .sidenav .closebtn {
   text-align: center;
   font-size: 35pt;
 }
 
 @media screen and (max-height: 450px) {
-  /* line 97, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+  /* line 98, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
   .sidenav {
     padding-top: 15px;
   }
-  /* line 101, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
+  /* line 102, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
   .sidenav a {
     font-size: 18px;
   }
@@ -235,6 +236,11 @@ nav .toggler:hover {
 }
 
 /* line 48, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .copyright-social img:first-child {
+  padding-left: unset;
+}
+
+/* line 52, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:hover {
   opacity: unset;
 }
@@ -258,7 +264,7 @@ nav .toggler:hover {
 
 /* line 16, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-1 {
-  background-color: #292929;
+  background-color: darkslategray;
 }
 
 /* line 20, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
@@ -320,12 +326,11 @@ nav .toggler:hover {
 
 /* line 62, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body h1 {
-  font-family: 'Nationale-Bold';
+  padding-bottom: 0.5em;
 }
 
 /* line 66, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body p {
-  font-family: 'Nationale-Regular';
   padding-bottom: 2em;
 }
 
@@ -357,15 +362,28 @@ body {
   background-color: black;
   color: white;
   overflow-x: hidden;
+  font-family: "Nationale-Regular";
+  font-size: 18pt !important;
 }
 
-/* line 13, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 16, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body button {
+  font-family: "Nationale-Regular";
+}
+
+/* line 20, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body h1 {
+  font-family: "Nationale-Bold";
+  font-size: 3rem;
+}
+
+/* line 25, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body .row {
   margin-left: unset;
   margin-right: unset;
 }
 
-/* line 18, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 30, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body .container {
   width: 100%;
   padding-left: unset;

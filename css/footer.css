@@ -58,6 +58,11 @@
 }
 
 /* line 48, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+.footer .social .copyright-social img:first-child {
+  padding-left: unset;
+}
+
+/* line 52, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:hover {
   opacity: unset;
 }

@@ -17,11 +17,15 @@ function openNav() {
       $(".sidenav").css({
         textAlign: "center"
       });
+      $(".sidenav li").css({
+        paddingLeft: "unset"
+      });
+      /*
       $(".sidenav li:last-child").css({
         paddingTop: "8em",
-        paddingBottom: "8em",
-        paddingLeft: "2em"
+        paddingBottom: "8em"
       });
+      */
 
     } else {
       $("#mySidenav").css({
@@ -29,8 +33,16 @@ function openNav() {
       });
       $(".sidenav li:last-child").css({
         paddingTop: "3em",
-        paddingBottom: "3em"
+        paddingBottom: "3em",
+        paddingLeft: "unset"
       });
+
+      $(".sidenav li:last-child").css({
+        paddingTop: "3em",
+        paddingBottom: "3em",
+        paddingLeft: "unset"
+      });
+
     }
 
 
