@@ -6,98 +6,80 @@
 }
 
 /* line 6, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .row {
+  width: 100vw;
+}
+
+/* line 10, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-indicators {
   z-index: 1;
 }
 
-/* line 12, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 16, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-1 {
   background-color: #292929;
 }
 
-/* line 15, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-.carousel .carousel-inner .slide-1 .cover {
-  float: right;
-}
-
-@media screen and (max-width: 1300px) {
-  /* line 15, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .slide-1 .cover {
-    width: 70vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /* line 15, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .slide-1 .cover {
-    width: 150%;
-  }
-}
-
-/* line 26, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 20, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-2 {
   background-color: #1c1c1c;
 }
 
-/* line 29, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-.carousel .carousel-inner .slide-2 .screenshot {
-  float: right;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 29, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .slide-2 .screenshot {
-    width: 150%;
-  }
-}
-
-/* line 37, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 24, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-3 {
   background-color: #141414;
 }
 
-/* line 40, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-.carousel .carousel-inner .slide-3 .brush {
-  float: right;
-  padding-right: 40em;
-}
-
-@media screen and (max-width: 1300px) {
-  /* line 40, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .slide-3 .brush {
-    padding-right: unset;
-    padding-bottom: 4em;
-  }
-}
-
-/* line 50, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 28, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body {
   padding-top: 5em;
   padding-right: unset;
 }
 
-/* line 54, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+@media screen and (max-width: 1200px) {
+  /* line 32, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .carousel-body .cover {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .carousel-body .screenshot {
+    right: 18%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 44, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .carousel-body .brush {
+    max-width: 75%;
+    padding-bottom: 2em;
+  }
+}
+
+/* line 51, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .carousel-inner .carousel-body img {
+  position: relative;
+  top: -10em;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 51, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .carousel-body img {
+    top: 0;
+  }
+}
+
+/* line 59, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body h1 {
   font-family: 'Nationale-Bold';
 }
 
-@media screen and (max-width: 768px) {
-  /* line 54, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .carousel-body h1 {
-    text-align: center;
-  }
-}
-
-/* line 61, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 63, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body p {
   font-family: 'Nationale-Regular';
-}
-
-@media screen and (max-width: 768px) {
-  /* line 61, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .carousel-body p {
-    text-align: center;
-  }
+  padding-bottom: 2em;
 }
 
 /*# sourceMappingURL=../css/carousel.map */

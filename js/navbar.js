@@ -19,7 +19,8 @@ function openNav() {
       });
       $(".sidenav li:last-child").css({
         paddingTop: "8em",
-        paddingBottom: "8em"
+        paddingBottom: "8em",
+        paddingLeft: "2em"
       });
 
     } else {

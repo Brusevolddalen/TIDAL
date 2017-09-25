@@ -65,7 +65,7 @@
       </ol>
       <div class="carousel-inner" role="listbox" >
         <div ng-repeat="slide in slides" class="{{slide.class}}">
-          <div class="row carousel-body" style="{{slide.style}}">
+          <div class="row carousel-body">
             <div class=" col-xl-10 offset-xl-2 col-lg-12 text-xl-left text-center">
               <h1>{{ slide.title }}</h1>
             </div>

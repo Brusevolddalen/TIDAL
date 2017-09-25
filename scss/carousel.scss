@@ -3,66 +3,66 @@
   width: 100vw;
   padding-top: 5em;
 
+  .row {
+    width: 100vw;
+  }
+
   .carousel-indicators {
     z-index: 1;
   }
 
   .carousel-inner {
-    //height: 100%;
+    
     .slide-1 {
       background-color: #292929;
-
-      .cover {
-        float: right;
-        @media screen and (max-width: 1300px) {
-          width: 70vw;
-        }
-        @media screen and (max-width: 768px) {
-          width: 150%;
-        }
-      }
     }
 
     .slide-2 {
       background-color: #1c1c1c;
-
-      .screenshot {
-        float: right;
-        @media screen and (max-width: 768px) {
-          width: 150%;
-        }
-      }
     }
 
     .slide-3 {
       background-color: #141414;
-
-      .brush {
-        float: right;
-        padding-right: 40em;
-        @media screen and (max-width: 1300px) {
-          padding-right: unset;
-          padding-bottom: 4em;
-        }
-      }
     }
 
     .carousel-body {
       padding-top: 5em;
       padding-right: unset;
 
+      .cover {
+        @media screen and (max-width: 1200px) {
+          right: 10%;
+        }
+      }
+
+      .screenshot {
+        @media screen and (max-width: 1200px) {
+          right: 18%;
+        }
+      }
+
+      .brush {
+        @media screen and (max-width: 1200px) {
+          max-width: 75%;
+          padding-bottom: 2em;
+        }
+      }
+
+      img {
+        position: relative;
+        top: -10em;
+        @media screen and (max-width: 1200px) {
+          top: 0;
+        }
+      }
+
       h1 {
         font-family: 'Nationale-Bold';
-        @media screen and (max-width: 768px) {
-          text-align: center;
-        }
       }
 
       p {
         font-family: 'Nationale-Regular';
-        @media screen and (max-width: 768px) {
-          text-align: center;
-        }
+        padding-bottom: 2em;
       }
     }
   }

@@ -23,10 +23,6 @@ $button-color: #00f5f5;
   background-color: inherit;
   margin-top: 2em;
   margin-bottom: 4em;
-  float: left;
 
-  @media screen and (max-width: 768px) {
-    margin-top: -1em;
-    float: unset;
-  }
+
 }
