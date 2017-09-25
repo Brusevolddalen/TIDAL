@@ -50,33 +50,39 @@
   }
 }
 
+/* line 44, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .carousel-inner .carousel-body .brush {
+  padding-right: 8em;
+}
+
 @media screen and (max-width: 1200px) {
   /* line 44, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .carousel-body .brush {
     max-width: 75%;
     padding-bottom: 2em;
+    padding-right: unset;
   }
 }
 
-/* line 51, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 54, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body img {
   position: relative;
   top: -10em;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 51, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 54, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .carousel-body img {
     top: 0;
   }
 }
 
-/* line 59, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 62, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body h1 {
   font-family: 'Nationale-Bold';
 }
 
-/* line 63, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 66, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body p {
   font-family: 'Nationale-Regular';
   padding-bottom: 2em;

@@ -12,7 +12,7 @@
   }
 
   .carousel-inner {
-    
+
     .slide-1 {
       background-color: #292929;
     }
@@ -42,9 +42,12 @@
       }
 
       .brush {
+        padding-right: 8em;
+
         @media screen and (max-width: 1200px) {
           max-width: 75%;
           padding-bottom: 2em;
+          padding-right: unset;
         }
       }
 
