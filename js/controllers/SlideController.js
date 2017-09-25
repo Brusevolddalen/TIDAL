@@ -8,9 +8,7 @@ tidal.controller('SlideController', ['$scope', function($scope) {
       imageClass: 'cover',
       title: "Action Bronson's Blue Chips 7000.",
       paragraph: "The long awaited Blue Chips sequel; Blue Chips 7000 is finally here.",
-      button: "LISTEN TO ALBUM",
-      style: "background-color:lightskyblue"
-
+      button: "LISTEN TO ALBUM"
     },
     {
       class: "carousel-item slide-2",

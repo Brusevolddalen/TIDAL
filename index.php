@@ -48,13 +48,8 @@
           <img src="images/footer-icons/googleplus-icon.png"/>
         </li>
       </ul>
-
     </div>
-
   </nav>
-
-
-
 
   <div ng-controller="SlideController">
     <div id="carousel" class="carousel slide section-1" data-ride="carousel">
@@ -65,7 +60,7 @@
       </ol>
       <div class="carousel-inner" role="listbox" >
         <div ng-repeat="slide in slides" class="{{slide.class}}">
-          <div class="row carousel-body" style="{{slide.style}}">
+          <div class="row carousel-body">
             <div class=" col-xl-10 offset-xl-2 col-lg-12 text-xl-left text-center">
               <h1>{{ slide.title }}</h1>
             </div>
@@ -87,12 +82,15 @@
         </div>
       </div>
     </div>
+
     <div class="section-2">
       <img  alt="Mountain image" src="images/Section2.png"/>
     </div>
+
     <div class="section-3">
       <img class="img-fluid" alt="Tidal media player UI" src="images/Section3.png"/>
     </div>
+
     <div class="footer">
       <div class="footer-icons">
         <div class="row ">
@@ -103,7 +101,6 @@
               <img src="images/footer-icons/wifi.png"/>
             </div>
         </div>
-
         <div class="row justify-content-center">
           <div class="col-xl-2 col-lg-6 col-10 align-self-center">
             <p>
@@ -111,7 +108,6 @@
             </p>
           </div>
         </div>
-
       </div>
       <div class="social">
         <div class="try-button">
@@ -127,7 +123,6 @@
             <img src="images/footer-icons/googleplus-icon.png"/>
           </div>
         </div>
-
       </div>
     </div>
   </div>
