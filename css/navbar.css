@@ -1,0 +1,88 @@
+/* The side navigation menu */
+.sidenav {
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    text-decoration: none;
+    font-size: 18pt;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+.sidenav li:hover{
+  background-color: #4d4d4d;
+}
+
+.sidenav li{
+  list-style: none;
+  padding-left: 2em;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: #242424;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.sidenav li:first-child{
+  list-style: none;
+  padding-left: unset;
+  height: 5em;
+  border-style: none;
+  background-color: #1c1c1c;
+  padding-top: unset;
+}
+
+.sidenav li:last-child{
+  border-style: none;
+  background-color: #1c1c1c;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: unset;
+}
+
+.sidenav li img{
+  opacity: 0.5;
+  padding-left: 1em;
+}
+.sidenav li img:first-child{
+  padding-left: unset;
+}
+
+
+.sidenav li img:hover{
+  opacity: unset;
+  cursor: pointer;
+}
+.sidenav li:hover:not(:last-child){
+  cursor: pointer;
+}
+
+
+.sidenav ul{
+  padding: unset;
+  margin-bottom: unset;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    text-align: center;
+    font-size: 35pt;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

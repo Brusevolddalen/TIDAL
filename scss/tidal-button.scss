@@ -1,0 +1,32 @@
+$button-color: #00f5f5;
+
+.tidal-button{
+  background-color: #1a1a1a;
+  padding: 1em 4em 1em 4em;
+  border-radius: 6px;
+  border-color: $button-color;
+  color:white;
+  position: relative;
+  top: -2em;
+
+  &:hover{
+    background-color: $button-color;
+    color:black;
+    border-style: none;
+    cursor: pointer;
+  }
+}
+
+.section-1-tidal-button{
+  @extend .tidal-button;
+  position: unset;
+  background-color: inherit;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  float: left;
+
+  @media screen and (max-width: 768px) {
+    margin-top: -1em;
+    float: unset;
+  }
+}

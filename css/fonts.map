@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/fonts.css",
+	"sources": [
+		"../scss/fonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n   font-family: 'Nationale-Regular';\r\n      src: url('../Fonts/Nationale-Regular.otf');\r\n   font-weight: normal;\r\n   font-style: normal;\r\n}\r\n@font-face {\r\n  font-family:'Nationale-Black';\r\n  src: url(\"../Fonts/Nationale-Black.otf\")\r\n  format('opentype');\r\n}\r\n@font-face {\r\n  font-family:'Nationale-Bold';\r\n  src: url(\"../Fonts/Nationale-Bold.otf\")\r\n  format('opentype');\r\n}\r\n@font-face {\r\n  font-family:'Nationale-DemiBold';\r\n  src: url(\"../Fonts/Nationale-DemiBold.otf\")\r\n  format('opentype');\r\n}\r\n@font-face {\r\n  font-family:'Nationale-Italic';\r\n  src: url(\"../Fonts/Nationale-Italic.otf\")\r\n  format('opentype');\r\n}\r\n@font-face {\r\n  font-family:'Nationale-Light';\r\n  src: url(\"../Fonts/Nationale-Light.otf\")\r\n  format('opentype');\r\n}\r\n"
+	],
+	"mappings": "AAAA,UAAU;EACP,WAAW,EAAE,mBAAoB;EAC9B,GAAG,EAAE,qCAAG;EACX,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;AAEtB,UAAU;EACR,WAAW,EAAC,iBAAkB;EAC9B,GAAG,EAAE,mCAAG,CACR,kBAAM;;;AAER,UAAU;EACR,WAAW,EAAC,gBAAiB;EAC7B,GAAG,EAAE,kCAAG,CACR,kBAAM;;;AAER,UAAU;EACR,WAAW,EAAC,oBAAqB;EACjC,GAAG,EAAE,sCAAG,CACR,kBAAM;;;AAER,UAAU;EACR,WAAW,EAAC,kBAAmB;EAC/B,GAAG,EAAE,oCAAG,CACR,kBAAM;;;AAER,UAAU;EACR,WAAW,EAAC,iBAAkB;EAC9B,GAAG,EAAE,mCAAG,CACR,kBAAM",
+	"names": []
+}

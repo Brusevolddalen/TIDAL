@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'Nationale-Regular';
+  src: url("../Fonts/Nationale-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nationale-Black';
+  src: url("../Fonts/Nationale-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Nationale-Bold';
+  src: url("../Fonts/Nationale-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Nationale-DemiBold';
+  src: url("../Fonts/Nationale-DemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Nationale-Italic';
+  src: url("../Fonts/Nationale-Italic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Nationale-Light';
+  src: url("../Fonts/Nationale-Light.otf") format("opentype");
+}
+
+/* line 3, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.tidal-button, .section-1-tidal-button {
+  background-color: #1a1a1a;
+  padding: 1em 4em 1em 4em;
+  border-radius: 6px;
+  border-color: #00f5f5;
+  color: white;
+  position: relative;
+  top: -2em;
+}
+
+/* line 12, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.tidal-button:hover, .section-1-tidal-button:hover {
+  background-color: #00f5f5;
+  color: black;
+  border-style: none;
+  cursor: pointer;
+}
+
+/* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.section-1-tidal-button {
+  position: unset;
+  background-color: inherit;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  float: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .section-1-tidal-button {
+    margin-top: -1em;
+    float: unset;
+  }
+}
+
+/* line 4, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* line 8, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .row {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+/* line 13, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body nav {
+  height: 5em;
+  padding-top: 1.5em;
+  z-index: 2;
+  position: fixed;
+  background-color: black;
+  width: 100vw;
+}
+
+/* line 21, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body nav .toggler:hover {
+  cursor: pointer;
+}
+
+/* line 29, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel {
+  height: 100%;
+  width: 100vw;
+  padding-top: 5em;
+}
+
+/* line 33, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel .carousel-indicators {
+  z-index: 1;
+}
+
+/* line 40, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-inner .slide-1 {
+  background-color: #292929;
+}
+
+/* line 44, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-inner .slide-2 {
+  background-color: #1c1c1c;
+}
+
+/* line 48, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-inner .slide-3 {
+  background-color: #141414;
+}
+
+/* line 51, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-inner .slide-3 .brush {
+  float: right;
+  padding-right: 40em;
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 51, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-inner .slide-3 .brush {
+    padding-right: unset;
+    padding-bottom: 4em;
+  }
+}
+
+/* line 62, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-fixed-item {
+  bottom: unset !important;
+}
+
+/* line 66, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-body {
+  padding-top: 5em;
+  padding-right: unset;
+}
+
+/* line 70, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-body .cover {
+  float: right;
+}
+
+@media screen and (max-width: 1300px) {
+  /* line 70, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-body .cover {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 70, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-body .cover {
+    width: 150%;
+  }
+}
+
+/* line 80, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-body .screenshot {
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 80, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-body .screenshot {
+    width: 150%;
+  }
+}
+
+/* line 87, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-body h1 {
+  font-family: 'Nationale-Bold';
+}
+
+@media screen and (max-width: 768px) {
+  /* line 87, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-body h1 {
+    text-align: center;
+  }
+}
+
+/* line 95, C:/MAMP/htdocs/Tidal/scss/main.scss */
+body .carousel-body p {
+  font-family: 'Nationale-Regular';
+}
+
+@media screen and (max-width: 768px) {
+  /* line 95, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  body .carousel-body p {
+    text-align: center;
+  }
+}
+
+/* line 107, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.section-2 {
+  width: 100vw;
+}
+
+/* line 110, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.section-2 img {
+  width: 100%;
+}
+
+/* line 114, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.section-3 {
+  width: 100vw;
+  background-color: #1a1a1a;
+  padding-top: 10em;
+}
+
+/* line 118, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.section-3 img {
+  margin: auto;
+  display: flex;
+}
+
+/* line 124, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.footer {
+  background-color: #242424;
+  width: 100vw;
+}
+
+/* line 129, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.container {
+  width: 100%;
+  padding-left: unset;
+  padding-right: unset;
+}
+
+/* line 136, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.footer-icons img {
+  padding-left: 2em;
+  padding-top: 5vh;
+}
+
+/* line 141, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.footer-icons p {
+  padding-top: 3em;
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* line 148, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.social {
+  background-color: #1a1a1a;
+  height: 10em;
+  margin-top: 10em;
+}
+
+/* line 152, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.social .try-button {
+  text-align: center;
+}
+
+/* line 155, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.social .copyright {
+  text-align: right;
+}
+
+@media screen and (min-width: 576px) {
+  /* line 155, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  .social .copyright {
+    text-align: center;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  /* line 163, C:/MAMP/htdocs/Tidal/scss/main.scss */
+  .social .social-icons {
+    text-align: center;
+    order: 1;
+    padding-bottom: 2em;
+  }
+}
+
+/* line 172, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.social .copyright-social img {
+  opacity: 0.5;
+  padding-left: 1.5em;
+}
+
+/* line 175, C:/MAMP/htdocs/Tidal/scss/main.scss */
+.social .copyright-social img:hover {
+  opacity: unset;
+}
+
+/*# sourceMappingURL=../css/main.map */
