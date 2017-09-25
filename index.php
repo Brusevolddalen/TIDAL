@@ -29,7 +29,7 @@
         <a href=""><img  alt="TIDAL logo" src="images/logo.png"></a>
       </div>
       <div class="col-2 text-left">
-        <img class="toggler" alt="menu icon" onclick="openNav()" src="images/Icons/menu_icon.png">
+        <img class="toggler" alt="menu icon" onclick="openNav()" src="images/icons/menu_icon.png">
       </div>
     </div>
 
