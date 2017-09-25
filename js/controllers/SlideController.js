@@ -22,10 +22,11 @@ tidal.controller('SlideController', ['$scope', function($scope) {
     {
       class: "carousel-item slide-3",
       ref: "#three!",
-      image: 'images/slides/Brush.png',
+      //image: 'images/slides/Brush.png',
+      //image: 'images/slides/AB_Live.png',
       imageClass: 'brush',
-      title: "Experience Action Bronson live.",
-      paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu.",
+      //title: "Experience Action Bronson live.",
+      //paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu.",
       button: "BUY TICKETS"
     }
   ]

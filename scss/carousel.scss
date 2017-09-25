@@ -14,20 +14,46 @@
   .carousel-inner {
 
     .slide-1 {
-      background-color: darkslategray;
+      //background-color: darkslategray;
+      background-image: url("../images/slides/Section_1_BG.png");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .slide-2 {
-      background-color: #1c1c1c;
+      //background-color: #1c1c1c;
+      background-image: url("../images/slides/Section_2_BG.png");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     .slide-3 {
-      background-color: #141414;
+      background-color: #00a2d3;
+      background-image: url("../images/slides/Section_3_BG.png");
+      background-repeat: no-repeat;
+      //background-size: cover;
+      background-size: auto 100%;
+      background-position: center;
+      //color: black;
+
+      .carousel-body{
+        padding-top: 2em;
+      }
+
+      button{
+        background-color: black;
+        border: none;
+
+        &:hover{
+          background-color: white;
+        }
+      }
     }
 
     .carousel-body {
       padding-top: 5em;
       padding-right: unset;
+
 
       .cover {
         @media screen and (max-width: 1200px) {
@@ -41,15 +67,6 @@
         }
       }
 
-      .brush {
-        padding-right: 8em;
-
-        @media screen and (max-width: 1200px) {
-          max-width: 75%;
-          padding-bottom: 2em;
-          padding-right: unset;
-        }
-      }
 
       img {
         position: relative;
