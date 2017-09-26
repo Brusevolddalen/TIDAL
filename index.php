@@ -20,6 +20,7 @@
   <title>
     TIDAL
   </title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body ng-app="tidal">
