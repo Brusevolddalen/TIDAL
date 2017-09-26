@@ -1,41 +1,23 @@
 $button-color: #00f5f5;
 
-.tidal-button{
+.tidal-button {
   background-color: #1a1a1a;
-  padding: 1em 4em 1em 4em;
+  padding: 1em 4em;
   border-radius: 6px;
-  border-color: $button-color;
-  color:white;
+  border-color: white;
+  color: white;
   position: relative;
   top: -2em;
 
-  &:hover{
+  &:hover {
     background-color: $button-color;
-    color:black;
+    color: black;
     cursor: pointer;
+    border-color: $button-color;
   }
 }
 
-.slide-1 button{
-  @extend .tidal-button;
-  //position: unset;
-  background-color: inherit;
-
-  @media screen and (max-width: 1200px) {
-    position: relative;
-    font-size: 0.8em;
-
-  }
-
-  @media screen and (max-width: 355px) {
-    padding: 0.5em 2em 0.5em 2em;
-  }
-
-
-
-}
-
-.slide-2 button{
+.slide-1 button {
   @extend .tidal-button;
 
   background-color: inherit;
@@ -43,13 +25,26 @@ $button-color: #00f5f5;
   @media screen and (max-width: 1200px) {
     position: relative;
     font-size: 0.8em;
+  }
+  
+  @media screen and (max-width: 355px) {
+    padding: 0.5em 2em;
+  }
+}
 
+.slide-2 button {
+  @extend .tidal-button;
+
+  background-color: inherit;
+
+  @media screen and (max-width: 1200px) {
+    position: relative;
+    font-size: 0.8em;
   }
 
   @media screen and (max-width: 355px) {
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0.5em 2em;
   }
-
 }
 
 .slide-3 button {
@@ -63,7 +58,6 @@ $button-color: #00f5f5;
 
   @media screen and (max-width: 370px) {
     font-size: 0.8em;
-    //padding: 0.5em 2em 0.5em 2em;
   }
 
   &:hover {

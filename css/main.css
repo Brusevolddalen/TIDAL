@@ -33,9 +33,9 @@
 /* line 3, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
 .tidal-button, .slide-1 button, .slide-2 button, .slide-3 button {
   background-color: #1a1a1a;
-  padding: 1em 4em 1em 4em;
+  padding: 1em 4em;
   border-radius: 6px;
-  border-color: #00f5f5;
+  border-color: white;
   color: white;
   position: relative;
   top: -2em;
@@ -46,15 +46,16 @@
   background-color: #00f5f5;
   color: black;
   cursor: pointer;
+  border-color: #00f5f5;
 }
 
-/* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+/* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
 .slide-1 button {
   background-color: inherit;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  /* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
   .slide-1 button {
     position: relative;
     font-size: 0.8em;
@@ -62,19 +63,19 @@
 }
 
 @media screen and (max-width: 355px) {
-  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  /* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
   .slide-1 button {
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0.5em 2em;
   }
 }
 
-/* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+/* line 35, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
 .slide-2 button {
   background-color: inherit;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  /* line 35, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
   .slide-2 button {
     position: relative;
     font-size: 0.8em;
@@ -82,13 +83,13 @@
 }
 
 @media screen and (max-width: 355px) {
-  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  /* line 35, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
   .slide-2 button {
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0.5em 2em;
   }
 }
 
-/* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+/* line 50, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
 .slide-3 button {
   background-color: black;
   border: none;
@@ -98,13 +99,13 @@
 }
 
 @media screen and (max-width: 370px) {
-  /* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  /* line 50, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
   .slide-3 button {
     font-size: 0.8em;
   }
 }
 
-/* line 69, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+/* line 63, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
 .slide-3 button:hover {
   background-color: white;
 }
@@ -234,52 +235,52 @@ nav .toggler:hover {
   width: 100vw;
 }
 
-/* line 6, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 7, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .footer-icons img {
   padding-left: 2em;
   padding-top: 5vh;
 }
 
 @media screen and (max-width: 410px) {
-  /* line 6, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 7, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .footer-icons img {
     width: 21vw;
   }
 }
 
-/* line 14, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 16, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .footer-icons p {
   padding-top: 3em;
   text-align: justify;
   text-align-last: center;
 }
 
-/* line 21, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 23, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social {
   background-color: #1a1a1a;
   height: 10em;
   margin-top: 10em;
 }
 
-/* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 28, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .try-button {
   text-align: center;
 }
 
 @media screen and (max-width: 380px) {
-  /* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 28, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .try-button {
     font-size: 0.8em;
   }
 }
 
-/* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 36, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright {
   text-align: right;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 36, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .copyright {
     text-align: center;
     order: 2;
@@ -287,7 +288,7 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 42, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 45, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .social-icons {
     text-align: center;
     order: 1;
@@ -295,18 +296,18 @@ nav .toggler:hover {
   }
 }
 
-/* line 51, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 54, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img {
   opacity: 0.5;
   padding-left: 1.5em;
 }
 
-/* line 55, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 58, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:first-child {
   padding-left: unset;
 }
 
-/* line 59, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 62, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:hover {
   opacity: unset;
 }
@@ -350,20 +351,20 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 31, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 32, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 h1 {
     font-size: 1.8em;
   }
 }
 
-/* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-1 .cover {
   float: right;
   min-width: 300px;
 }
 
 @media screen and (max-width: 1800px) {
-  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 .cover {
     width: 50vw;
     top: -6em;
@@ -371,7 +372,7 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 .cover {
     top: -1em;
     right: 2em;
@@ -388,7 +389,7 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 62, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 61, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 p {
     margin-top: -2em;
     font-size: 0.8em;
@@ -403,13 +404,13 @@ nav .toggler:hover {
   }
 }
 
-/* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-2 .screenshot {
   min-width: 300px;
 }
 
 @media screen and (max-width: 1800px) {
-  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 .screenshot {
     width: 35vw;
     top: -6em;
@@ -417,14 +418,14 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 .screenshot {
     top: -1em;
     padding-bottom: 1em;
   }
 }
 
-/* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 91, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-3 {
   background-color: #00a2d3;
   background-image: url("../images/slides/Section_3_BG.png");
@@ -434,7 +435,7 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 750px) {
-  /* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 91, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-3 {
     background-size: auto 75vw;
   }
@@ -509,24 +510,24 @@ body {
   font-size: 18pt !important;
 }
 
-/* line 16, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 15, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body button {
   font-family: "Nationale-Regular";
 }
 
-/* line 20, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 19, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body h1 {
   font-family: "Nationale-Bold";
   font-size: 3rem;
 }
 
-/* line 25, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 24, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body .row {
   margin-left: unset;
   margin-right: unset;
 }
 
-/* line 30, C:/MAMP/htdocs/Tidal/scss/main.scss */
+/* line 29, C:/MAMP/htdocs/Tidal/scss/main.scss */
 body .container {
   width: 100%;
   padding-left: unset;

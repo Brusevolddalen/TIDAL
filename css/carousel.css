@@ -37,20 +37,20 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 31, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 32, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 h1 {
     font-size: 1.8em;
   }
 }
 
-/* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-1 .cover {
   float: right;
   min-width: 300px;
 }
 
 @media screen and (max-width: 1800px) {
-  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 .cover {
     width: 50vw;
     top: -6em;
@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-1 .cover {
     top: -1em;
     right: 2em;
@@ -75,7 +75,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 62, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 61, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 p {
     margin-top: -2em;
     font-size: 0.8em;
@@ -90,13 +90,13 @@
   }
 }
 
-/* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-2 .screenshot {
   min-width: 300px;
 }
 
 @media screen and (max-width: 1800px) {
-  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 .screenshot {
     width: 35vw;
     top: -6em;
@@ -104,14 +104,14 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 76, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-2 .screenshot {
     top: -1em;
     padding-bottom: 1em;
   }
 }
 
-/* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 91, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-3 {
   background-color: #00a2d3;
   background-image: url("../images/slides/Section_3_BG.png");
@@ -121,7 +121,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  /* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  /* line 91, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
   .carousel .carousel-inner .slide-3 {
     background-size: auto 75vw;
   }
