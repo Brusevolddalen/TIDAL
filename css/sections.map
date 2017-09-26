@@ -5,8 +5,8 @@
 		"../scss/sections.scss"
 	],
 	"sourcesContent": [
-		".section-2 {\r\n  width: 100vw;\r\n\r\n  img {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n.section-3 {\r\n  width: 100vw;\r\n  background-color: #1a1a1a;\r\n  padding-top: 10em;\r\n\r\n  img {\r\n    margin: auto;\r\n    display: flex;\r\n  }\r\n}\r\n"
+		".section-2 {\r\n  width: 100vw;\r\n\r\n  img {\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n.section-3 {\r\n  width: 100vw;\r\n  background-color: #02a2d6;\r\n  padding-top: 10em;\r\n\r\n  img {\r\n    margin: auto;\r\n    display: flex;\r\n    padding-left: 2em;\r\n    padding-right: 2em;\r\n  }\r\n}\r\n"
 	],
-	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAM;CAKd;;;AAND,AAGE,UAHQ,CAGR,GAAG,CAAC;EACF,KAAK,EAAE,IAAK;CACb;;;AAGH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAE,OAAQ;EAC1B,WAAW,EAAE,IAAK;CAMnB;;;AATD,AAKE,UALQ,CAKR,GAAG,CAAC;EACF,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;CACf",
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAM;CAKd;;;AAND,AAGE,UAHQ,CAGR,GAAG,CAAC;EACF,KAAK,EAAE,IAAK;CACb;;;AAGH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAM;EACb,gBAAgB,EAAE,OAAQ;EAC1B,WAAW,EAAE,IAAK;CAQnB;;;AAXD,AAKE,UALQ,CAKR,GAAG,CAAC;EACF,MAAM,EAAE,IAAK;EACb,OAAO,EAAE,IAAK;EACd,YAAY,EAAE,GAAI;EAClB,aAAa,EAAE,GAAI;CACpB",
 	"names": []
 }

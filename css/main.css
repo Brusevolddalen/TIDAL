@@ -31,7 +31,7 @@
 }
 
 /* line 3, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.tidal-button, .section-1-tidal-button {
+.tidal-button, .slide-1 button, .slide-2 button, .slide-3 button {
   background-color: #1a1a1a;
   padding: 1em 4em 1em 4em;
   border-radius: 6px;
@@ -42,19 +42,71 @@
 }
 
 /* line 12, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.tidal-button:hover, .section-1-tidal-button:hover {
+.tidal-button:hover, .slide-1 button:hover, .slide-2 button:hover, .slide-3 button:hover {
   background-color: #00f5f5;
   color: black;
-  border-style: none;
   cursor: pointer;
 }
 
-/* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.section-1-tidal-button {
-  position: unset;
+/* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-1 button {
   background-color: inherit;
-  margin-top: 2em;
-  margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-1 button {
+    position: relative;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-1 button {
+    padding: 0.5em 2em 0.5em 2em;
+  }
+}
+
+/* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-2 button {
+  background-color: inherit;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-2 button {
+    position: relative;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-2 button {
+    padding: 0.5em 2em 0.5em 2em;
+  }
+}
+
+/* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-3 button {
+  background-color: black;
+  border: none;
+  margin-bottom: unset;
+  position: relative;
+  top: 2em;
+}
+
+@media screen and (max-width: 370px) {
+  /* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-3 button {
+    font-size: 0.8em;
+  }
+}
+
+/* line 69, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-3 button:hover {
+  background-color: white;
 }
 
 /* line 1, C:/MAMP/htdocs/Tidal/scss/navbar.scss */
@@ -188,32 +240,46 @@ nav .toggler:hover {
   padding-top: 5vh;
 }
 
-/* line 11, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+@media screen and (max-width: 410px) {
+  /* line 6, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .footer-icons img {
+    width: 21vw;
+  }
+}
+
+/* line 14, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .footer-icons p {
   padding-top: 3em;
   text-align: justify;
   text-align-last: center;
 }
 
-/* line 18, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 21, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social {
   background-color: #1a1a1a;
   height: 10em;
   margin-top: 10em;
 }
 
-/* line 23, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .try-button {
   text-align: center;
 }
 
-/* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+@media screen and (max-width: 380px) {
+  /* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .social .try-button {
+    font-size: 0.8em;
+  }
+}
+
+/* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright {
   text-align: right;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .copyright {
     text-align: center;
     order: 2;
@@ -221,7 +287,7 @@ nav .toggler:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 35, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 42, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .social-icons {
     text-align: center;
     order: 1;
@@ -229,18 +295,18 @@ nav .toggler:hover {
   }
 }
 
-/* line 44, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 51, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img {
   opacity: 0.5;
   padding-left: 1.5em;
 }
 
-/* line 48, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 55, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:first-child {
   padding-left: unset;
 }
 
-/* line 52, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 59, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:hover {
   opacity: unset;
 }
@@ -262,21 +328,103 @@ nav .toggler:hover {
   z-index: 1;
 }
 
-/* line 16, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 15, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .carousel-inner .img-div {
+  padding-right: unset;
+}
+
+/* line 19, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-1 {
   background-image: url("../images/slides/Section_1_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 23, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+@media screen and (max-width: 1200px) {
+  /* line 24, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-1 p {
+    margin-top: -3em;
+    font-size: 0.8em;
+    padding-bottom: unset;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 31, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-1 h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .carousel-inner .slide-1 .cover {
+  float: right;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 1800px) {
+  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-1 .cover {
+    width: 50vw;
+    top: -6em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 36, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-1 .cover {
+    top: -1em;
+    right: 2em;
+    float: none;
+    left: unset;
+  }
+}
+
+/* line 56, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-2 {
   background-image: url("../images/slides/Section_2_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 30, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+@media screen and (max-width: 1200px) {
+  /* line 62, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-2 p {
+    margin-top: -2em;
+    font-size: 0.8em;
+    padding-bottom: unset;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 69, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-2 h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+.carousel .carousel-inner .slide-2 .screenshot {
+  min-width: 300px;
+}
+
+@media screen and (max-width: 1800px) {
+  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-2 .screenshot {
+    width: 35vw;
+    top: -6em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 74, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-2 .screenshot {
+    top: -1em;
+    padding-bottom: 1em;
+  }
+}
+
+/* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-3 {
   background-color: #00a2d3;
   background-image: url("../images/slides/Section_3_BG.png");
@@ -285,61 +433,44 @@ nav .toggler:hover {
   background-position: center;
 }
 
-/* line 39, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+@media screen and (max-width: 750px) {
+  /* line 89, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .slide-3 {
+    background-size: auto 75vw;
+  }
+}
+
+/* line 100, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .slide-3 .carousel-body {
   padding-top: 2em;
 }
 
-/* line 43, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-.carousel .carousel-inner .slide-3 button {
-  background-color: black;
-  border: none;
-}
-
-/* line 47, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-.carousel .carousel-inner .slide-3 button:hover {
-  background-color: white;
-}
-
-/* line 53, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 107, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body {
   padding-top: 5em;
   padding-right: unset;
+  height: 70vh;
 }
 
 @media screen and (max-width: 1200px) {
-  /* line 58, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .carousel-body .cover {
-    right: 10%;
+  /* line 107, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+  .carousel .carousel-inner .carousel-body {
+    padding-top: 3em;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  /* line 64, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .carousel-body .screenshot {
-    right: 18%;
-  }
-}
-
-/* line 71, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 117, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body img {
   position: relative;
   top: -10em;
 }
 
-@media screen and (max-width: 1200px) {
-  /* line 71, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
-  .carousel .carousel-inner .carousel-body img {
-    top: 0;
-  }
-}
-
-/* line 79, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 122, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body h1 {
   padding-bottom: 0.5em;
 }
 
-/* line 83, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
+/* line 126, C:/MAMP/htdocs/Tidal/scss/carousel.scss */
 .carousel .carousel-inner .carousel-body p {
   padding-bottom: 2em;
 }
@@ -357,7 +488,7 @@ nav .toggler:hover {
 /* line 9, C:/MAMP/htdocs/Tidal/scss/sections.scss */
 .section-3 {
   width: 100vw;
-  background-color: #1a1a1a;
+  background-color: #02a2d6;
   padding-top: 10em;
 }
 
@@ -365,6 +496,8 @@ nav .toggler:hover {
 .section-3 img {
   margin: auto;
   display: flex;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* line 8, C:/MAMP/htdocs/Tidal/scss/main.scss */

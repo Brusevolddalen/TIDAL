@@ -24,7 +24,7 @@
 
 <body ng-app="tidal">
   <nav>
-    <div class="row justify-content-between align-middle">
+    <div class="row justify-content-between">
       <div class="col-2 text-right">
         <a href=""><img  alt="TIDAL logo" src="images/logo.png"></a>
       </div>
@@ -70,12 +70,12 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-xl-10 offset-xl-2 col-lg-12 text-xl-left text-center flex-xl-first flex-last">
+              <div class="{{slide.buttonClass}}">
                 <button class="section-1-tidal-button">{{slide.button}}</button>
               </div>
 
-              <div class="col-xl-10 offset-xl-2 col-lg-12 text-xl-right text-center flex-xl-last flex-first">
-                <img ng-src="{{slide.image}}" class='{{slide.imageClass}} img-fluid'/>
+              <div class="{{slide.imageDivClass}} img-div">
+                <img ng-src="{{slide.image}}" class='img-fluid {{slide.imageClass}}'/>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@
     </div>
 
     <div class="section-2">
-      <img  alt="Wave image" src="images/Section2.png"/>
+      <img  alt="Mountain image" src="images/Section2.png"/>
     </div>
 
     <div class="section-3">
@@ -95,14 +95,14 @@
       <div class="footer-icons">
         <div class="row ">
             <div class="col-12 text-center">
-              <img src="images/footer-icons/apple.png"/>
-              <img src="images/footer-icons/android.png"/>
-              <img src="images/footer-icons/desktop.png"/>
-              <img src="images/footer-icons/wifi.png"/>
+              <img class="img-fluid" src="images/footer-icons/apple.png"/>
+              <img class="img-fluid" src="images/footer-icons/android.png"/>
+              <img class="img-fluid" src="images/footer-icons/desktop.png"/>
+              <img class="img-fluid" src="images/footer-icons/wifi.png"/>
             </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-xl-2 col-lg-6 col-10 align-self-center">
+          <div class="col-xl-4 col-lg-6 col-12 col-md-10 align-self-center">
             <p>
               Seamless listening across mobile, tablet, desktop and network players. Enjoy lossless music streaming on Apple devices from iPhone, iPad and iPod to Mac, as well as on PC and Android systems. Plus integration in a wide range of high fidelity network players.
             </p>

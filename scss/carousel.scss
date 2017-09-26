@@ -12,12 +12,45 @@
   }
 
   .carousel-inner {
+    .img-div{
+      padding-right: unset;
+    }
 
     .slide-1 {
-      //background-color: darkslategray;
       background-image: url("../images/slides/Section_1_BG.png");
       background-repeat: no-repeat;
       background-size: cover;
+
+      p{
+        @media screen and (max-width: 1200px) {
+          margin-top: -3em;
+          font-size: 0.8em;
+          padding-bottom: unset;
+        }
+      }
+      h1{
+        @media screen and (max-width: 1200px) {
+          font-size: 1.8em;
+        }
+      }
+      .cover{
+        float: right;
+        @media screen and (max-width: 1800px) {
+          width: 50vw;
+          top: -6em;
+        }
+
+        @media screen and (max-width: 1200px) {
+          top: -1em;
+          //width: 50%;
+          right: 2em;
+          float: none;
+          left: unset;
+        }
+
+        min-width: 300px;
+      }
+
     }
 
     .slide-2 {
@@ -25,6 +58,32 @@
       background-image: url("../images/slides/Section_2_BG.png");
       background-repeat: no-repeat;
       background-size: cover;
+
+      p{
+        @media screen and (max-width: 1200px) {
+          margin-top: -2em;
+          font-size: 0.8em;
+          padding-bottom: unset;
+        }
+      }
+      h1{
+        @media screen and (max-width: 1200px) {
+          font-size: 1.8em;
+        }
+      }
+      .screenshot{
+
+        @media screen and (max-width: 1800px) {
+          width: 35vw;
+          top: -6em;
+        }
+
+        @media screen and (max-width: 1200px) {
+          top: -1em;
+          padding-bottom: 1em;
+        }
+        min-width: 300px;
+      }
     }
 
     .slide-3 {
@@ -34,46 +93,30 @@
       //background-size: cover;
       background-size: auto 100%;
       background-position: center;
+      @media screen and (max-width: 750px) {
+        background-size: auto 75vw;
+      }
       //color: black;
-
-      .carousel-body{
+      .carousel-body {
         padding-top: 2em;
       }
 
-      button{
-        background-color: black;
-        border: none;
 
-        &:hover{
-          background-color: white;
-        }
-      }
     }
 
     .carousel-body {
       padding-top: 5em;
       padding-right: unset;
+      height: 70vh;
 
-
-      .cover {
-        @media screen and (max-width: 1200px) {
-          right: 10%;
-        }
-      }
-
-      .screenshot {
-        @media screen and (max-width: 1200px) {
-          right: 18%;
-        }
+      @media screen and (max-width: 1200px) {
+        padding-top: 3em;
       }
 
 
       img {
         position: relative;
         top: -10em;
-        @media screen and (max-width: 1200px) {
-          top: 0;
-        }
       }
 
       h1 {
@@ -82,6 +125,7 @@
 
       p {
         padding-bottom: 2em;
+
       }
     }
   }

@@ -6,6 +6,9 @@
     img {
       padding-left: 2em;
       padding-top: 5vh;
+      @media screen and (max-width: 410px) {
+        width: 21vw;
+      }
     }
 
     p {
@@ -22,6 +25,10 @@
 
     .try-button {
       text-align: center;
+      @media screen and (max-width: 380px) {
+        font-size: 0.8em;
+      }
+
     }
 
     .copyright {
@@ -44,7 +51,7 @@
       img {
         opacity: 0.5;
         padding-left: 1.5em;
-        
+
         &:first-child{
           padding-left: unset;
         }

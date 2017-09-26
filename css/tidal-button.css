@@ -1,5 +1,5 @@
 /* line 3, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.tidal-button, .section-1-tidal-button {
+.tidal-button, .slide-1 button, .slide-2 button, .slide-3 button {
   background-color: #1a1a1a;
   padding: 1em 4em 1em 4em;
   border-radius: 6px;
@@ -10,19 +10,71 @@
 }
 
 /* line 12, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.tidal-button:hover, .section-1-tidal-button:hover {
+.tidal-button:hover, .slide-1 button:hover, .slide-2 button:hover, .slide-3 button:hover {
   background-color: #00f5f5;
   color: black;
-  border-style: none;
   cursor: pointer;
 }
 
-/* line 20, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
-.section-1-tidal-button {
-  position: unset;
+/* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-1 button {
   background-color: inherit;
-  margin-top: 2em;
-  margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-1 button {
+    position: relative;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  /* line 19, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-1 button {
+    padding: 0.5em 2em 0.5em 2em;
+  }
+}
+
+/* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-2 button {
+  background-color: inherit;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-2 button {
+    position: relative;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  /* line 38, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-2 button {
+    padding: 0.5em 2em 0.5em 2em;
+  }
+}
+
+/* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-3 button {
+  background-color: black;
+  border: none;
+  margin-bottom: unset;
+  position: relative;
+  top: 2em;
+}
+
+@media screen and (max-width: 370px) {
+  /* line 55, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+  .slide-3 button {
+    font-size: 0.8em;
+  }
+}
+
+/* line 69, C:/MAMP/htdocs/Tidal/scss/tidal-button.scss */
+.slide-3 button:hover {
+  background-color: white;
 }
 
 /*# sourceMappingURL=../css/tidal-button.map */

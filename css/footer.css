@@ -10,32 +10,46 @@
   padding-top: 5vh;
 }
 
-/* line 11, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+@media screen and (max-width: 410px) {
+  /* line 6, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .footer-icons img {
+    width: 21vw;
+  }
+}
+
+/* line 14, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .footer-icons p {
   padding-top: 3em;
   text-align: justify;
   text-align-last: center;
 }
 
-/* line 18, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 21, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social {
   background-color: #1a1a1a;
   height: 10em;
   margin-top: 10em;
 }
 
-/* line 23, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .try-button {
   text-align: center;
 }
 
-/* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+@media screen and (max-width: 380px) {
+  /* line 26, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  .footer .social .try-button {
+    font-size: 0.8em;
+  }
+}
+
+/* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright {
   text-align: right;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 27, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 34, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .copyright {
     text-align: center;
     order: 2;
@@ -43,7 +57,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* line 35, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+  /* line 42, C:/MAMP/htdocs/Tidal/scss/footer.scss */
   .footer .social .social-icons {
     text-align: center;
     order: 1;
@@ -51,18 +65,18 @@
   }
 }
 
-/* line 44, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 51, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img {
   opacity: 0.5;
   padding-left: 1.5em;
 }
 
-/* line 48, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 55, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:first-child {
   padding-left: unset;
 }
 
-/* line 52, C:/MAMP/htdocs/Tidal/scss/footer.scss */
+/* line 59, C:/MAMP/htdocs/Tidal/scss/footer.scss */
 .footer .social .copyright-social img:hover {
   opacity: unset;
 }

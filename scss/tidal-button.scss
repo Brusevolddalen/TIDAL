@@ -12,17 +12,61 @@ $button-color: #00f5f5;
   &:hover{
     background-color: $button-color;
     color:black;
-    border-style: none;
     cursor: pointer;
   }
 }
 
-.section-1-tidal-button{
+.slide-1 button{
   @extend .tidal-button;
-  position: unset;
+  //position: unset;
   background-color: inherit;
-  margin-top: 2em;
-  margin-bottom: 4em;
+
+  @media screen and (max-width: 1200px) {
+    position: relative;
+    font-size: 0.8em;
+
+  }
+
+  @media screen and (max-width: 355px) {
+    padding: 0.5em 2em 0.5em 2em;
+  }
 
 
+
+}
+
+.slide-2 button{
+  @extend .tidal-button;
+
+  background-color: inherit;
+
+  @media screen and (max-width: 1200px) {
+    position: relative;
+    font-size: 0.8em;
+
+  }
+
+  @media screen and (max-width: 355px) {
+    padding: 0.5em 2em 0.5em 2em;
+  }
+
+}
+
+.slide-3 button {
+  @extend .tidal-button;
+
+  background-color: black;
+  border: none;
+  margin-bottom: unset;
+  position: relative;
+  top: 2em;
+
+  @media screen and (max-width: 370px) {
+    font-size: 0.8em;
+    //padding: 0.5em 2em 0.5em 2em;
+  }
+
+  &:hover {
+    background-color: white;
+  }
 }
